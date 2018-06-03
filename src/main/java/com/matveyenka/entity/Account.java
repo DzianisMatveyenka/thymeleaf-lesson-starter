@@ -12,10 +12,9 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Pizza {
+public class Account {
 
-    private String name;
-    private boolean thickDough;
-    private List<Ingredient> ingredients = new ArrayList<>();
-    private Cuisine cuisine;
+    private Integer number;
+    private boolean active;
+    private List<AccountType> types = new ArrayList<>();
 }
